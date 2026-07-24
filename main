@@ -1,0 +1,509 @@
+# PIXL DOCS
+
+## Start here
+
+# Welcome to Pixl
+
+So here's the deal. Pixl is a YSWS (you ship, we ship) from Hack Club, and the whole thing is wrapped in a story. Origin used to be a huge digital civilization until something called the Great Static tore it apart into floating islands. The people who lived there found their way to Hack Clubbers, and together you're rebuilding it under a new name: Pixl.
+
+But you don't actually need to care about any of that to play. Strip away the story and Pixl is really just this: build real stuff, ship it, get real rewards. NPCs across the game world hand out sidequests, which are basically project prompts with a bit of flavor text attached. You pick one, build it (or build something totally different that you thought of yourself), submit it, and you get pixels plus whatever prize is attached.
+
+You explore a retro 2D world with your own character, run into NPCs, take on quests, and every hour you spend building something real adds up. It's not a race against other people either. Whatever you ship is yours to keep, no matter how the rest of the community is doing.
+
+## Start here
+
+# What do you actually get
+
+Every hour of shipped work is worth 50 pixels. On top of that, most sidequests have their own prize attached, things like a custom domain, an Apple Developer account, a Flipper Zero, robux, PCB manufacturing budget, whatever fits the quest. If the listed prize isn't your thing and you already have it, you can usually swap it for something else of similar value.
+
+Pixels themselves go into the in game shop, where you can spend them on stickers all the way up to bigger stuff like a MacBook Air. The shop catalog and prices show up once you're in game.
+
+Outside of pixels and prizes you also get access to free hosting, free domains, AI credits, a CDN, and starter guides to get you going, more on all of that below.
+
+If you get stuck at any point, search for it first. Someone in #pixl has almost definitely run into the same wall you're stuck on. If you really can't find an answer, just ask.
+
+## The Restoration
+
+# How the Restoration works
+
+The overall story is called the Restoration, and it's split into two kinds of time periods.
+
+### Chapters
+
+Chapters run for about three weeks each. Every chapter is centered on repairing one part of Origin. While a chapter is live, you're picking sidequests from whatever regions are already unlocked and shipping real projects toward that chapter's goal. Once the community collectively hits the goal, the story moves forward, a new region opens up, NPCs come back online, and new sidequests appear.
+
+### Operations
+
+In between chapters there are operations, shorter one week events built around a single theme, like a game jam or a hackathon or a tool building week. These are good if you want something with a hard deadline and a tighter scope.
+
+### Showing up late is fine
+
+Regions don't close once they're unlocked. Whenever you join, you can pick from any sidequest that's currently available and ship it for the same pixels and prizes as everyone else. Chapters only decide what unlocks next, they don't gate what you're allowed to build.
+
+## The Restoration
+
+# Your sidequest
+
+Sidequests come from NPCs around the world who have some kind of problem they need help with. Zara the merchant needs a storefront, Marco needs a travel app, GHOST needs a network intrusion system, stuff like that. You can take one of these on, or if the Core hasn't thought of your idea yet, you can just build your own thing instead. Both count the same toward Restoration Energy.
+
+### What makes a good sidequest submission
+
+- it actually solves the problem the NPC describes, or does something real if it's your own idea
+- you can explain what you built and what you learned building it
+- there's something in it that's clearly yours, not just default template stuff
+- it's a finished project, not a half done tutorial follow along
+
+### The one rule
+
+Don't just copy paste someone else's project or clone a tutorial line by line. Learning from tutorials is completely fine, encouraged even, but what you submit needs to have your own fingerprints on it somewhere.
+
+## Build & ship
+
+# Building
+
+You can build pretty much anything here, software or hardware, as long as it's real and it's yours.
+
+**Software** covers websites, apps, games, bots, AI tools, browser extensions, whatever. Useful tools to know about: VS Code, GitHub, and Hackatime for tracking time.
+
+**Hardware** covers PCBs, electronics, robotics, 3D printed stuff, physical builds. You'll want CAD software, a PCB design tool, and whatever hardware guides fit your project.
+
+### Tracking your time
+
+Hackatime tracks your build time automatically once it's set up in your editor. Every hour it logs from a shipped project turns into 50 pixels, so get it installed early, don't build for hours and then realize none of it got tracked.
+
+## Build & ship
+
+# Shipping
+
+Building the thing is only half of it, you also have to ship it. Shipping just means:
+
+1. finish building your project
+2. write up what you made, what it does, and what you learned
+3. submit it for review
+4. get approved
+5. pixels and rewards land in your account
+
+Before you hit submit, look at what a good submission actually looks like. Reviewers care about seeing the real project, a clear explanation of what you built, and something that shows it's actually yours and not a copy.
+
+## Build & ship
+
+# Rewards
+
+Pixels are the currency of Pixl. You earn them by shipping.
+
+**Earning pixels**
+- 50 pixels for every hour of shipped work, tracked through Hackatime
+- most sidequests also come with an extra prize on top of the base pixels
+
+**Spending pixels**
+Head to the in game shop and spend what you've earned. The catalog ranges from stickers and small gear up to bigger prizes like a MacBook Air. The more you ship, the more you can afford, and new stuff gets added to the shop as the Restoration goes on.
+
+## Resources
+
+# Free stuff to help you build
+
+Hack Club doesn't want money to be the reason you can't build something, so here's what's available to you for free:
+
+- **AI credits**, meant for building your own agents and tools, not for running someone else's pre built coding assistant
+- **Free hosting on Nest**, a Linux server you can put basically any project on
+- **Free domains**, open a PR on the DNS repo and claim one for your project
+- **Free CDN** for hosting images, video, and other assets
+
+## Resources
+
+# Need help?
+
+Getting stuck happens to literally everyone, here's what to do about it.
+
+- ask in #pixl on Slack, other builders are working through the exact same stuff
+- search first, whatever you're stuck on has probably already been answered
+- still stuck after that? just ask, nobody's going to judge you for it
+
+**Tip:** the single best skill any builder can have is knowing how to search. Someone has almost always already solved your problem.
+
+**Warning:** don't ship a straight copy of a tutorial project. Take inspiration from it, sure, but make the final thing yours. That's exactly what reviewers are looking for.
+
+---
+
+# Guides
+
+Step by step tutorials for building a specific kind of project. If you're not sure where to start on a sidequest, find the guide closest to what you're building and go from there.
+
+## HTML guide
+
+If you've never built a website before, this is the place to start. HTML is the skeleton of every website you'll ever see, it's what tells the browser "this is a heading, this is a paragraph, this is a button."
+
+**Getting set up**
+
+You don't need anything fancy. Open VS Code, make a new folder for your project, and create a file called `index.html`. That's it, that's your website.
+
+**The basics**
+
+Every HTML page starts with a bit of boilerplate:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Site</title>
+</head>
+<body>
+  <h1>Hello world</h1>
+  <p>This is my first page.</p>
+</body>
+</html>
+```
+
+Save that file and open it in your browser. Congrats, you just built a website.
+
+**A few tags worth knowing**
+
+- `<h1>` through `<h6>` for headings, biggest to smallest
+- `<p>` for paragraphs
+- `<a href="...">` for links
+- `<img src="...">` for images
+- `<button>` for buttons
+- `<div>` for grouping stuff together
+
+**Making it not look terrible**
+
+HTML alone gives you the structure but no style. That's what CSS is for. You can either put styles in a separate `style.css` file and link it, or just throw a `<style>` tag in the `<head>`. Something like:
+
+```html
+<style>
+  body {
+    font-family: sans-serif;
+    background: #111;
+    color: white;
+  }
+</style>
+```
+
+That alone already looks better than plain HTML.
+
+**For a Zara style storefront sidequest**
+
+Think about what a real storefront needs: a header with the merchant's name, a list of items with images and prices, and a contact form at the bottom. Build it section by section instead of trying to do the whole page at once. Ship something simple and working before you try to make it fancy.
+
+---
+
+## Slack app guide
+
+Since #pixl lives on Slack, a Slack bot or app is a genuinely good sidequest idea, and a lot of NPCs might ask for exactly this kind of thing.
+
+**Setting up your app**
+
+Head to [api.slack.com/apps](https://api.slack.com/apps) and create a new app. Slack will ask if you want to start from scratch or from a manifest, from scratch is fine for your first one. Pick the workspace you want to test in (your own test workspace, not the Hack Club Slack, while you're building).
+
+**Bot tokens and scopes**
+
+Under OAuth & Permissions, add some scopes depending on what your bot needs to do. A few common ones:
+
+- `chat:write` lets your bot post messages
+- `channels:history` lets it read messages in channels it's in
+- `commands` if you want slash commands
+- `app_mentions:read` if you want it to respond when someone @s it
+
+Install the app to your workspace and grab your Bot User OAuth Token, it starts with `xoxb-`. Keep this secret, don't commit it to GitHub.
+
+**Actually running the bot**
+
+You'll want a small backend, Node with the `@slack/bolt` package is probably the easiest way in:
+
+```js
+const { App } = require('@slack/bolt');
+
+const app = new App({
+  token: process.env.SLACK_BOT_TOKEN,
+  signingSecret: process.env.SLACK_SIGNING_SECRET,
+  socketMode: true,
+  appToken: process.env.SLACK_APP_TOKEN
+});
+
+app.message('hello', async ({ message, say }) => {
+  await say(`hey <@${message.user}>`);
+});
+
+app.start();
+```
+
+Socket mode is nice while you're building because you don't need a public URL yet, you can just run it on your own laptop.
+
+**Where to host it**
+
+Once it works, throw it on Nest, the free Linux hosting Hack Club gives you. That way your bot stays online even when your laptop's closed.
+
+**Sidequest ideas**
+
+A bot that tracks Hackatime stats and posts leaderboards, a bot that reminds people about chapter deadlines, a slash command that pulls a random sidequest, all of these are solid, real, shippable projects.
+
+---
+
+## Roblox guide
+
+Sidequests like Tim's coin collecting game show up because Roblox is genuinely a solid platform to ship on, you get a huge built in audience and you don't need to worry about hosting or app store approval.
+
+**Getting set up**
+
+Download Roblox Studio from create.roblox.com, it's free. Once it's installed, open it and start from the Baseplate template, that gives you an empty flat world to build in instead of starting from nothing.
+
+**The basics of how a Roblox game is put together**
+
+Everything lives in the Explorer panel on the right. A few things worth knowing right away:
+
+- Workspace holds everything physically in the game world, parts, models, terrain
+- Lighting controls how the game looks, time of day, brightness, that kind of thing
+- ServerScriptService is where scripts run that only the server should handle, things like giving out coins
+- StarterGui is where you put UI that gets copied to every player when they join
+
+**Scripting basics**
+
+Roblox uses Lua, specifically a version called Luau. A simple script that gives a player a coin when they touch a part looks something like:
+
+```lua
+local part = script.Parent
+
+part.Touched:Connect(function(hit)
+	local player = game.Players:GetPlayerFromCharacter(hit.Parent)
+	if player then
+		print(player.Name .. " touched the coin")
+		part:Destroy()
+	end
+end)
+```
+
+Put that inside a Script that's a child of the coin part, and touching the coin makes it disappear and prints a message. From there you'd build out an actual currency system, probably using leaderstats to show a score on the player list.
+
+**Leaderstats, the standard way to track score**
+
+```lua
+game.Players.PlayerAdded:Connect(function(player)
+	local stats = Instance.new("Folder")
+	stats.Name = "leaderstats"
+	stats.Parent = player
+
+	local coins = Instance.new("IntValue")
+	coins.Name = "Coins"
+	coins.Value = 0
+	coins.Parent = stats
+end)
+```
+
+This is the standard pattern almost every Roblox game with a score or currency uses, it automatically shows up in the player list in game.
+
+**Publishing your game**
+
+Once it's working, go to File, then Publish to Roblox. Give it a name, description, and a thumbnail if you've got one, then it's live and playable by anyone with the link, including Tim and his friends.
+
+**Keeping it a real sidequest**
+
+Don't just publish the default Baseplate with one script dropped in. Add a few coins spread around a real map, a win condition, maybe a simple shop, something that shows actual game design thinking, not just a single working mechanic.
+
+---
+
+## React Native app guide
+
+Marco's traveler app is a good example of what this guide is for, a mobile app that actually does something, tracks stuff, sends notifications, works on your phone.
+
+**Setting up your project**
+
+The fastest way to get moving is Expo, it skips a lot of the native setup pain. Install it and start a new project:
+
+```bash
+npx create-expo-app my-app
+cd my-app
+npx expo start
+```
+
+That last command gives you a QR code, scan it with the Expo Go app on your phone and your app shows up live, and updates as you save files.
+
+**The basic structure**
+
+Expo projects come with a file based router by default, every file inside the app folder becomes a screen. A simple screen looks like:
+
+```jsx
+import { View, Text, StyleSheet } from 'react-native';
+
+export default function HomeScreen() {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Marco's Routes</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: { flex: 1, padding: 20, paddingTop: 60 },
+  title: { fontSize: 24, fontWeight: 'bold' }
+});
+```
+
+**Storing data locally**
+
+For something like tracking routes or logging inventory, AsyncStorage is the easiest starting point, it's basically a simple key value store on the device:
+
+```jsx
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+await AsyncStorage.setItem('routes', JSON.stringify(routeList));
+const saved = await AsyncStorage.getItem('routes');
+```
+
+**Notifications**
+
+Expo has a notifications module built in. After asking the user for permission, you can schedule a local notification like this:
+
+```jsx
+import * as Notifications from 'expo-notifications';
+
+await Notifications.scheduleNotificationAsync({
+  content: { title: "New region reached", body: "You've arrived somewhere new" },
+  trigger: null
+});
+```
+
+**Getting it onto your phone for real**
+
+While you're building, Expo Go is fine. Once it's finished, you can either keep it as an Expo Go project for your submission, or build a real standalone app with `eas build` if you want something closer to a real App Store style release.
+
+---
+
+## Pixel art guide
+
+Sidequests like Loot's item shop icons come down to producing a batch of small, clean, consistent sprites, which is its own skill separate from just drawing.
+
+**Picking a tool**
+
+Aseprite is the standard for this kind of work, it's built specifically for pixel art and animation, and it's cheap for what it does. Piskel is a solid free browser based alternative if you don't want to buy anything yet.
+
+**Starting a sprite**
+
+Set your canvas small on purpose, something like 32x32 or 16x16 for icons. Working small forces you to make clean, deliberate choices instead of getting lost in detail that won't even read at that size.
+
+**Keeping a consistent palette**
+
+Pick a small color palette before you start, somewhere around 8 to 16 colors, and stick to it across every sprite in the set. This is the single biggest thing that makes a batch of icons look like they belong together instead of like they were made on different days.
+
+**Outlining and shading**
+
+A dark outline around the edge of each sprite helps it read clearly against different backgrounds. For shading, pick one light source direction and stay consistent, usually top left, and use it the same way on every sprite so the whole set feels like one lighting setup.
+
+**Exporting the set**
+
+Export each sprite as a PNG at its native pixel size, don't scale it up in the export, scale it up with CSS or in whatever engine you're using instead so it stays crisp. If you're building a whole set, keep them in one folder with clear names like `potion_health.png`, `sword_iron.png`, that kind of thing.
+
+**Building the storefront around them**
+
+Loot's sidequest also wants a website to show the icons off, so treat it as two halves: the sprite sheet itself, and a simple gallery style page that displays each icon with its name, similar in spirit to the HTML guide above. Remember art can only count for half your submitted time on this one, the website half matters just as much.
+
+---
+
+# Setup and Reference
+
+These aren't project guides, they're the tools and process you'll use no matter what you end up building.
+
+## Hackatime setup
+
+Hackatime is how your build time gets tracked, and it's what turns hours into pixels, so get it set up before you start your first sidequest.
+
+**Installing it**
+
+Hackatime plugs into your editor through a WakaTime style extension. For VS Code, search "WakaTime" in the extensions tab, install it, and when it asks for an API key, use the one from your Hackatime account instead of a regular WakaTime one, along with the Hackatime API URL.
+
+**Making sure it's actually tracking**
+
+Open your Hackatime dashboard after coding for a few minutes and check that time is showing up under the right project. If nothing shows, double check the API key and URL are right, that's almost always the issue.
+
+**Splitting time between projects**
+
+If you're working on more than one sidequest at once, make sure each one lives in its own folder, Hackatime uses the folder name as the project name by default. Rename projects in your dashboard if the auto detected name doesn't match what you want on your submission.
+
+---
+
+## Submitting your project
+
+**What to include**
+
+- a link to your finished project, live if possible, not just a repo
+- a short writeup of what it does
+- what you learned or what was hard about building it
+- screenshots or a short demo video if it's not obvious from just visiting the link
+
+**What reviewers are actually checking for**
+
+Whether the project is real and working, whether the time logged in Hackatime roughly matches what you built, and whether there's something in it that's clearly yours and not lifted straight from a tutorial.
+
+**Common reasons submissions get sent back**
+
+- the project doesn't actually run or the link is broken
+- barely any Hackatime data logged
+- it's a nearly exact copy of a tutorial with nothing changed
+
+Fix whatever's flagged and resubmit, it's not a one shot thing.
+
+---
+
+## Git and GitHub
+
+Almost every sidequest you ship should end up on GitHub somewhere, both because reviewers want to see your code and because it's just how you avoid losing your work.
+
+**Getting Git installed**
+
+If you're on Mac, Git is usually already there, open your terminal and type `git --version` to check. On Windows, grab Git for Windows from git-scm.com and install it with the default options. On Linux it's normally `sudo apt install git` or whatever your package manager uses.
+
+**Setting up your identity**
+
+Before your first commit, tell Git who you are:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+```
+
+Use the same email as your GitHub account so your commits actually get linked to your profile.
+
+**Starting a new project**
+
+Inside your project folder:
+
+```bash
+git init
+git add .
+git commit -m "first commit"
+```
+
+Then head to GitHub, make a new repo, and it'll give you a couple lines to run that connect your local folder to it, something like:
+
+```bash
+git remote add origin https://github.com/yourusername/yourproject.git
+git branch -M main
+git push -u origin main
+```
+
+**The everyday loop**
+
+Once it's set up, the loop you'll use constantly is:
+
+```bash
+git add .
+git commit -m "what you changed"
+git push
+```
+
+Commit often, and write messages that actually describe what changed, "fixed navbar overflow on mobile" is a lot more useful later than "update."
+
+**A .gitignore is worth setting up early**
+
+You don't want to accidentally commit API keys, node_modules, or build files. Create a .gitignore file in your project root and add lines like:
+
+```
+node_modules/
+.env
+dist/
+```
+
+GitHub has starter .gitignore templates for pretty much every language if you search "gitignore [your language] github."
+
+**Why this matters for sidequests**
+
+A lot of submissions ask for a repo link, and reviewers do actually look at your commit history sometimes, it's one of the ways they can tell a project was built over real hours instead of dumped in all at once right before a deadline.
